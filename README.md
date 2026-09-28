@@ -1,7 +1,7 @@
 # Porfolio
 
 ### Building
--   `git clone https://github.com/tengolomidze/Portfolio.git`
+-   `git clone https://github.com/tengolomidze/portfolio-linux-system.git`
 -   `cd Portfolio`
 -   `npm install`
 -   `npm run dev`

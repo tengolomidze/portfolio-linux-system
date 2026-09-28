@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme {
+    /* FONTS */
+    --font-jakarta: "Jakarta", "sans";
+    --font-funnel: "Funnel", "sans";
+    --font-anurati: "Anurati", "Jakarta", "sans-serif";
+
+    /* COLORS */
+    --color-main: #F3F4F6;
+    --color-dark: #0d1515;
+
+    --color-light-green: #96e9c1;
+    --color-light-red: #f7c2ca;
+    --color-Green: #6bac8d;
+    --color-Red: #ba4c50;
+    --color-Cyan: #54ABA7;
+    --color-Violet: #7C54AB;
+
+    --color-Emerald: #64FDC5;
+
+    --color-node-bg-hover: #1a2d2e40;
+    --color-node-bg-selected: #1a2d2e70;
+    --color-node-red: #ba4c50;
+    --color-node-green: #6bac8d;
+    --color-node-blue: #575884;
+    --color-node-yellow: #848457;
+    --color-node-violet: #84576E;
+
+    --color-explorer: #24332c;
+
+    --color-select-area-bg: #6bac8d80;
+    --color-select-area-border: #6bac8d99;
+
+    --color-settings-bg: #101b1c;
+    --color-settings-button: #49665d;
+    --color-settings-text: #d0ffda;
+    --color-settings-active: #d35658;
+
+    --color-firefox: #2b2a33;
+    --color-firefox-highlight: #464551;
+    --color-firefox-dark: #1f1e25;
+}
+
+@layer base {
+    @font-face {
+        font-family: "Jakarta";
+        src: url("/fonts/PlusJakarta.ttf") format("truetype");
+    }
+     @font-face {
+        font-family: "Funnel";
+        src: url("/fonts/FunnelSans.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Anurati";
+        font-weight: 400;
+        src: url("/fonts/Anurati-Regular.otf") format("opentype");
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+* {
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  	background: #707070d0;
+  	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+ 	background: #888888d0;
+}
+
+body {
+  	cursor: url('/icons/cursors/arrow.cur'), auto;
+}
+
+.hand {
+  	cursor: url('/icons/cursors/arrow.cur'), auto;
+}
+
+input[type="text"], textarea, [contenteditable="true"] {
+  	cursor: url('/icons/cursors/ibeam.cur'), text;
+}
+
+.sizenesw {
+  	cursor: url('/icons/cursors/sizenesw.cur'), default;
+}
+
+.sizens {
+  	cursor: url('/icons/cursors/sizens.cur'), default;
+}
+
+.sizewe {
+  	cursor: url('/icons/cursors/sizewe.cur'), default;
+}
+
+.sizenwse {
+  	cursor: url('/icons/cursors/sizenwse.cur'), default;
+}

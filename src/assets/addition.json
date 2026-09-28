@@ -1,0 +1,155 @@
+[
+    {
+        "name": "tmp",
+        "uuid": "tmp",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "media",
+        "uuid": "media",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "mnt",
+        "uuid": "mnt",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "var",
+        "uuid": "var",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "tmp",
+        "uuid": "var-tmp",
+        "parent": "var",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "log",
+        "uuid": "var-log",
+        "parent": "var",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "cache",
+        "uuid": "var-cache",
+        "parent": "var",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "spool",
+        "uuid": "var-spool",
+        "parent": "var",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "bin",
+        "uuid": "bin",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "sbin",
+        "uuid": "sbin",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "boot",
+        "uuid": "boot",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "lib",
+        "uuid": "lib",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "opt",
+        "uuid": "opt",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "root",
+        "uuid": "root",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "etc",
+        "uuid": "etc",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "usr",
+        "uuid": "etc",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    },
+    {
+        "name": "bin",
+        "uuid": "usr-bin",
+        "parent": "",
+        "icon": "",
+        "content": "",
+        "readonly": true,
+        "type": "FileSystemFolder"
+    }
+]

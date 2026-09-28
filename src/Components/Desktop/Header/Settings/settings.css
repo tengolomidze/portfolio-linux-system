@@ -1,0 +1,30 @@
+@keyframes settings-slide-up-anim{
+  from { transform: translateY(0%); opacity: 100%; }
+  to { transform: translateY(-50%); opacity: 50%; }
+}
+
+.settings-slide-up{
+  animation-name: settings-slide-up-anim;
+  animation-duration: 0.2s;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(0.645, 0, 0.785, 0.39);
+}
+
+@keyframes settings-slide-down-anim {
+  from { transform: translateY(-50%); opacity: 50%; }
+  to { transform: translateY(0%); opacity: 100%; }
+}
+
+.settings-slide-down {
+  animation-name: settings-slide-down-anim;
+  animation-duration: 0.2s;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.settings-slide-down-with-bump {
+  animation-name: settings-slide-down-anim;
+  animation-duration: 0.4s;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}

@@ -1,0 +1,180 @@
+[  OK  ] Finished console-setup.service - Set console font and keymap.
+[  OK  ] Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+[  OK  ] Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+[  OK  ] Reached target sound.target - Sound Card.
+[  OK  ] Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+         Mounting run-rpc_pipefs.mount - RPC Pipe File System...
+[  OK  ] Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+         Starting open-vm-tools.service - Service for virtual machines hosted on VMware...
+         Starting systemd-timesyncd.service - Network Time Synchronization...
+         Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+[  OK  ] Started open-vm-tools.service - Service for virtual machines hosted on VMware.
+[  OK  ] Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+[  OK  ] Mounted run-rpc_pipefs.mount - RPC Pipe File System.
+[  OK  ] Reached target rpc_pipefs.target.
+[  OK  ] Reached target nfs-client.target - NFS client services.
+[  OK  ] Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+[  OK  ] Reached target remote-fs.target - Remote File Systems.
+[  OK  ] Started systemd-timesyncd.service - Network Time Synchronization.
+[  OK  ] Reached target sysinit.target - System Initialization.
+[  OK  ] Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target time-set.target - System Time Set.
+[  OK  ] Started apt-daily.timer - Daily apt download activities.
+[  OK  ] Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+[  OK  ] Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+[  OK  ] Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+[  OK  ] Started fstrim.timer - Discard unused filesystem blocks once a week.
+[  OK  ] Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+[  OK  ] Started logrotate.timer - Daily rotation of log files.
+[  OK  ] Started man-db.timer - Daily man-db regeneration.
+[  OK  ] Started phpsessionclean.timer - Clean PHP session files every 30 mins.
+[  OK  ] Started plocate-updatedb.timer - Update the plocate database daily.
+[  OK  ] Reached target timers.target - Timer Units.
+[  OK  ] Listening on dbus.socket - D-Bus System Message Bus Socket.
+[  OK  ] Listening on pcscd.socket - PC/SC Smart Card Daemon Activation Socket.
+[  OK  ] Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+[  OK  ] Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+[  OK  ] Reached target ssh-access.target - SSH Access Available.
+[  OK  ] Listening on systemd-hostnamed.socket - Hostname Service Socket.
+[  OK  ] Reached target sockets.target - Socket Units.
+[  OK  ] Reached target basic.target - Basic System.
+         Starting accounts-daemon.service - Accounts Service...
+[  OK  ] Started cron.service - Regular background program processing daemon.
+         Starting dbus.service - D-Bus System Message Bus...
+         Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+         Starting polkit.service - Authorization Manager...
+         Starting systemd-logind.service - User Login Management...
+         Starting dpkg-db-backup.service - Daily dpkg database backup service...
+         Starting phpsessionclean.service - Clean php session files...
+[  OK  ] Started systemd-logind.service - User Login Management.
+[  OK  ] Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+[  OK  ] Finished networking.service - Raise network interfaces.
+[  OK  ] Started dbus.service - D-Bus System Message Bus.
+         Starting NetworkManager.service - Network Manager...
+         Starting e2scrub_all.service - Online ext4 Metadata Check for All Filesystems...
+[  OK  ] Finished e2scrub_all.service - Online ext4 Metadata Check for All Filesystems.
+[  OK  ] Started polkit.service - Authorization Manager.
+         Starting ModemManager.service - Modem Manager...
+[  OK  ] Started accounts-daemon.service - Accounts Service.
+[  OK  ] Finished dpkg-db-backup.service - Daily dpkg database backup service.
+         Starting systemd-hostnamed.service - Hostname Service...
+[  OK  ] Started systemd-hostnamed.service - Hostname Service.
+[  OK  ] Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+[  OK  ] Started ModemManager.service - Modem Manager.
+[  OK  ] Finished phpsessionclean.service - Clean php session files.
+[  OK  ] Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+[  OK  ] Started NetworkManager.service - Network Manager.
+[  OK  ] Reached target network.target - Network.
+         Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+         Starting systemd-user-sessions.service - Permit User Sessions...
+[  OK  ] Finished systemd-user-sessions.service - Permit User Sessions.
+         Starting lightdm.service - Light Display Manager...
+         Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+[  OK  ] Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+[  OK  ] Reached target network-online.target - Network is Online.
+         Starting rpc-statd-notify.service - Notify NFS peers of a restart...
+[  OK  ] Started plymouth-start.service - Show Plymouth Boot Screen.
+[  OK  ] Started systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch.
+[  OK  ] Reached target paths.target - Path Units.
+[  OK  ] Found device dev-disk-by2duuid-a10cc69e2d7e682d4c962daf3a2dc3c824c9cf44.device - VMware_Virtual_IDE_Hard_Drive 5.
+         Activating swap dev-disk-by2duuid-a10cc69e2d7e682d4c962daf3a2dc3c824c9cf44.swap - /dev/disk/by-uuid/a10cc69e-7e68-4c96-af3a-c3c824c9cf44...
+[  OK  ] Activated swap dev-disk-by2duuid-a10cc69e2d7e682d4c962daf3a2dc3c824c9cf44.swap - /dev/disk/by-uuid/a10cc69e-7e68-4c96-af3a-c3c824c9cf44.
+[  OK  ] Reached target swap.target - Swaps.
+         Mounting tmp.mount - Temporary Directory /tmp...
+[  OK  ] Mounted tmp.mount - Temporary Directory /tmp.
+[  OK  ] Reached target local-fs.target - Local File Systems.
+[  OK  ] Listening on systemd-sysext.socket - System Extension Image Management.
+         Starting console-setup.service - Set console font and keymap...
+         Starting networking.service - Raise network interfaces...
+         Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+         Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+[  OK  ] Finished console-setup.service - Set console font and keymap.
+[  OK  ] Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+         Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+[  OK  ] Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+[  OK  ] Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+[  OK  ] Reached target sound.target - Sound Card.
+[  OK  ] Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+         Starting systemd-tmpfiles-setup.service - Create System Files and Directories...
+[  OK  ] Finished networking.service - Raise network interfaces.
+[  OK  ] Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+         Mounting run-rpc_pipefs.mount - RPC Pipe File System...
+[  OK  ] Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+         Starting open-vm-tools.service - Service for virtual machines hosted on VMware...
+         Starting systemd-timesyncd.service - Network Time Synchronization...
+         Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+[  OK  ] Started open-vm-tools.service - Service for virtual machines hosted on VMware.
+[  OK  ] Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+[  OK  ] Mounted run-rpc_pipefs.mount - RPC Pipe File System.
+[  OK  ] Reached target rpc_pipefs.target.
+[  OK  ] Reached target nfs-client.target - NFS client services.
+[  OK  ] Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+[  OK  ] Reached target remote-fs.target - Remote File Systems.
+[  OK  ] Started systemd-timesyncd.service - Network Time Synchronization.
+[  OK  ] Reached target sysinit.target - System Initialization.
+[  OK  ] Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target time-set.target - System Time Set.
+[  OK  ] Started apt-daily.timer - Daily apt download activities.
+[  OK  ] Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+[  OK  ] Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+[  OK  ] Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+[  OK  ] Started fstrim.timer - Discard unused filesystem blocks once a week.
+[  OK  ] Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+[  OK  ] Started logrotate.timer - Daily rotation of log files.
+[  OK  ] Started man-db.timer - Daily man-db regeneration.
+[  OK  ] Started phpsessionclean.timer - Clean PHP session files every 30 mins.
+[  OK  ] Started plocate-updatedb.timer - Update the plocate database daily.
+[  OK  ] Reached target timers.target - Timer Units.
+[  OK  ] Listening on dbus.socket - D-Bus System Message Bus Socket.
+[  OK  ] Listening on pcscd.socket - PC/SC Smart Card Daemon Activation Socket.
+[  OK  ] Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+[  OK  ] Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+[  OK  ] Reached target ssh-access.target - SSH Access Available.
+[  OK  ] Listening on systemd-hostnamed.socket - Hostname Service Socket.
+[  OK  ] Reached target sockets.target - Socket Units.
+[  OK  ] Reached target basic.target - Basic System.
+         Starting accounts-daemon.service - Accounts Service...
+[  OK  ] Started cron.service - Regular background program processing daemon.
+         Starting dbus.service - D-Bus System Message Bus...
+         Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+         Starting polkit.service - Authorization Manager...
+         Starting systemd-logind.service - User Login Management...
+         Starting dpkg-db-backup.service - Daily dpkg database backup service...
+         Starting e2scrub_all.service - Online ext4 Metadata Check for All Filesystems...
+         Starting phpsessionclean.service - Clean php session files...
+[  OK  ] Finished e2scrub_all.service - Online ext4 Metadata Check for All Filesystems.
+[  OK  ] Started systemd-logind.service - User Login Management.
+[  OK  ] Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+[  OK  ] Started dbus.service - D-Bus System Message Bus.
+         Starting NetworkManager.service - Network Manager...
+[  OK  ] Started polkit.service - Authorization Manager.
+         Starting ModemManager.service - Modem Manager...
+[  OK  ] Started accounts-daemon.service - Accounts Service.
+[  OK  ] Finished dpkg-db-backup.service - Daily dpkg database backup service.
+         Starting systemd-hostnamed.service - Hostname Service...
+[  OK  ] Started systemd-hostnamed.service - Hostname Service.
+[  OK  ] Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+[  OK  ] Started ModemManager.service - Modem Manager.
+[  OK  ] Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+[  OK  ] Finished phpsessionclean.service - Clean php session files.
+[  OK  ] Started NetworkManager.service - Network Manager.
+[  OK  ] Reached target network.target - Network.
+         Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+         Starting systemd-user-sessions.service - Permit User Sessions...
+[  OK  ] Finished systemd-user-sessions.service - Permit User Sessions.
+         Starting lightdm.service - Light Display Manager...
+         Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+[  OK  ] Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+[  OK  ] Reached target network-online.target - Network is Online.
+         Starting rpc-statd-notify.service - Notify NFS peers of a restart...
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        

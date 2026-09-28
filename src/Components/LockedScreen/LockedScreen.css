@@ -1,0 +1,109 @@
+@keyframes screen-bg-fade-in {
+  from { 
+    scale: 1.2; 
+    opacity: 0; 
+  }
+  to { 
+    scale: 1.05; 
+    opacity: 1; 
+  }
+}
+
+.animate-screen-fade-in {
+    animation: screen-bg-fade-in 0.8s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+    will-change: scale, filter; 
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@keyframes screen-bg-fade-out {
+    from { 
+        scale: 1; 
+        opacity: 1;
+    }
+    to { 
+        scale: 1.05; 
+        opacity: 0; 
+    }
+}
+
+.animate-screen-fade-out {
+    animation: screen-bg-fade-out 0.4s cubic-bezier(0.46, 0.02, 0.91, 0.48) forwards;
+    will-change: scale, opacity;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@keyframes screen-bg-zoom-in {
+    from { 
+        scale: 1.05;
+        filter: blur(8px) brightness(90%); 
+    }
+    to { 
+        scale: 1.25;
+        filter: blur(16px) brightness(90%); 
+    }
+}
+
+.animate-screen-zoom-in {
+    animation: screen-bg-zoom-in 1s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+    will-change: scale, filter; 
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@keyframes content-fade-scale {
+    from { 
+        transform: scale(1.1) translateZ(0); 
+        opacity: 0; 
+    }
+    to { 
+        transform: scale(1) translateZ(0); 
+        opacity: 1; 
+    }
+}
+
+.animate-content-scale {
+    animation: content-fade-scale 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@keyframes content-slide-down {
+    from { 
+        transform: translate3d(0, -16px, 0); 
+        opacity: 0; 
+    }
+    to { 
+        transform: translate3d(0, 0, 0); 
+        opacity: 1; 
+    }
+}
+
+.animate-slide-down {
+    animation: content-slide-down 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@keyframes button-slide-down {
+    from { 
+        transform: translate3d(0, -20px, 0); 
+        opacity: 0; 
+    }
+    to { 
+        transform: translate3d(0, 0, 0); 
+        opacity: 1; 
+    }
+}
+
+.animate-button-slide-down {
+    animation: button-slide-down 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+}
